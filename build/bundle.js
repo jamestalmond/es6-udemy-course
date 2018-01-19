@@ -9027,36 +9027,5 @@ module.exports = function (regExp, replace) {
 "use strict";
 
 
-var _marked = /*#__PURE__*/regeneratorRuntime.mark(letterMaker);
-
-function letterMaker() {
-    return regeneratorRuntime.wrap(function letterMaker$(_context) {
-        while (1) {
-            switch (_context.prev = _context.next) {
-                case 0:
-                    _context.next = 2;
-                    return 'a';
-
-                case 2:
-                    _context.next = 4;
-                    return 'b';
-
-                case 4:
-                    _context.next = 6;
-                    return 'c';
-
-                case 6:
-                case 'end':
-                    return _context.stop();
-            }
-        }
-    }, _marked, this);
-}
-
-var letterGen = letterMaker();
-console.log(letterGen.next().value);
-console.log(letterGen.next().value);
-console.log(letterGen.next().value);
-
 /***/ })
 /******/ ]);
