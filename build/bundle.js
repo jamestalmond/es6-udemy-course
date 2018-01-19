@@ -72,10 +72,16 @@ module.exports = __webpack_require__(1);
 
 /***/ }),
 /* 1 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-console.log('Hello from webpack!');
+"use strict";
 
+
+function cheer() {
+    console.log('Woohoo!');
+}
+
+cheer();
 
 /***/ })
 /******/ ]);
