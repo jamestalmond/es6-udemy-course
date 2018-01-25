@@ -5,7 +5,7 @@ import Gallery from './Gallery';
 class Global extends Component {
     constructor(props) {
         super(props);
-        this.state = {
+        this.state = { // current state of a component that isn't effected by the parent 
             query: '',
             items: []
         };

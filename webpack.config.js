@@ -1,9 +1,9 @@
-const path = require('path');
+const { resolve } = require('path');
 
 module.exports = {
 	entry: ['babel-polyfill', __dirname + '/app/index.js'],
 	output: {
-		path: path.resolve(__dirname, 'build'),
+		path: resolve(__dirname, 'build'),
 		filename: 'bundle.js'
 	},
 	module: {
@@ -22,7 +22,7 @@ module.exports = {
 	},
 	devServer: {
 		port: 3000,
-		contentBase: path.resolve(__dirname, 'build'),
+		contentBase: resolve(__dirname, 'build'),
 		inline: true
 	}
 }
