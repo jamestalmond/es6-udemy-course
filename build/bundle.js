@@ -35227,7 +35227,7 @@ var Global = function (_Component) {
 
         var _this = _possibleConstructorReturn(this, (Global.__proto__ || Object.getPrototypeOf(Global)).call(this, props));
 
-        _this.state = {
+        _this.state = { // current state of a component that isn't effected by the parent 
             query: '',
             items: []
         };
